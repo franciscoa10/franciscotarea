@@ -1,0 +1,31 @@
+utilizando el  sistema ;
+utilizando el  sistema . Colecciones . Genérico ;
+utilizando el  sistema . Texto ;
+
+espacio de nombres  TiendaElextronica
+{
+     clase   pública FacturaCarrito
+    {
+
+         FacturaCarrito público ()
+        {
+            esta . Detalle  =  nueva  Lista < DetalleFactura > ();
+        }
+        // público ListadoClientes Cabecera {get; conjunto; }
+
+         Lista pública < DetalleFactura > Detalle { get ; establecer ; }
+        // público vacío CalcularDescuento ();
+       // Sutotal público decimal {get; conjunto; }
+       / *   public void CalculaAlgo ()
+         {
+             conta decimal = 0;
+             foreach (elemento var en this.Detalle)
+             {
+                 conta = conta + (item.Cantidad * item.ProductoCarrito.Precio);
+             }
+             this.Sutotal = conta;
+         } * /
+
+
+    }
+}
