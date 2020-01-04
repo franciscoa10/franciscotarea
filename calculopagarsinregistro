@@ -2,7 +2,7 @@ utilizando el  sistema ;
 utilizando el  sistema . Colecciones . Genérico ;
 utilizando el  sistema . Texto ;
 
-espacio de nombres  TiendaElextronica
+espacio de nombres  tienda
 {
     clase  Calculos_a_pagar_sin_Registro : IProcesosTranssaccionales
         
