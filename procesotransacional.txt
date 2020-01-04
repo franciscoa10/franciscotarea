@@ -1,0 +1,13 @@
+utilizando el  sistema ;
+utilizando el  sistema . Colecciones . Genérico ;
+utilizando el  sistema . Texto ;
+
+espacio de nombres  tienda
+{
+    interfaz  IProcesosTranssaccionales
+    {
+        público decimal  CalcularSubtotal ();
+decimal          público CalcularDescuento ();
+       público decimal  CalcularTotal ();
+    }
+}

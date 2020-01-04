@@ -1,0 +1,30 @@
+utilizando el  sistema ;
+utilizando el  sistema . Colecciones . Genérico ;
+utilizando el  sistema . Texto ;
+
+espacio de nombres  tienda
+{
+    clase  Factura_C_Premiun
+    {
+        ClientePremiun  c3  =  nuevo  ClientePremiun ();
+        público  ClientePremiun  Dato3 { get ; establecer ; }
+ //        public decimal Facha () {return
+  //               c3.FechaDeInscre (); }
+        público  vacío  LlenarDatos ()
+        {
+           
+            Consola . WriteLine ( " Escriba su nombre " ); c3 . Nombres  =  Consola . ReadLine ();
+            Consola . WriteLine ( " Escriba su apellido " ); c3 . Apellido  =  Consola . ReadLine ();
+            Consola . WriteLine ( " Escriba su Numero de cedula " ); c3 . Cedula  =  Consola . ReadLine ();
+            Consola . WriteLine ( " Escriba su Correo " ); c3 . Correo electrónico  =  Consola . ReadLine ();
+            Consola . WriteLine ( " Escriba su Contraseña " ); c3 . Contrase ñ a  =  Consola . ReadLine ();
+            Consola . WriteLine ( " Escriba su Facha de inscriccion " ); c3 . FechaInscriccion  =  DateTime . Parse ( Consola . ReadLine ());
+            Consola . WriteLine ( " Escriba su puntage " ); c3 . PuntageCom  =  Convertir . ToInt32 ( Console . ReadLine ());
+            esta . Dato3  =  c3 ;
+        }
+     
+       
+
+
+    }
+}

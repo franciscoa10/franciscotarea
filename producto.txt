@@ -1,0 +1,17 @@
+utilizando el  sistema ;
+utilizando el  sistema . Colecciones . Genérico ;
+utilizando el  sistema . Texto ;
+
+espacio de nombres  tienda
+{
+     Producto de clase  pública
+    {
+        public  int  Codigo { get ; establecer ; }
+
+        pública  cadena  Descripcion { llegar ; establecer ; }
+
+        público  decimal  Precio { get ; establecer ; }
+
+    
+    }
+}

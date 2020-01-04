@@ -1,0 +1,30 @@
+utilizando el  sistema ;
+utilizando el  sistema . Colecciones . Genérico ;
+utilizando el  sistema . Texto ;
+
+espacio de nombres tienda
+{
+    clase  Calculos_A_pagar_Premiun : IProcesosTranssaccionales
+    {
+         Subtotal público decimal  { get ; establecer ; }
+         descuento decimal  público { get ; establecer ; }
+         Total decimal  público { get ; establecer ; }
+        público  decimal  CalcularSubtotal ()
+        {
+            regresar  Subtotal ;
+        }
+        público  decimal  CalcularDescuento ()
+        {
+            esta . Descuento = esto . Subtotal * 0.10M ;
+            devolución  Descuento ;
+        }
+
+       
+
+        público  decimal  CalcularTotal ()
+        {
+            esta . Total = Subtotal - Descuento ;
+            retorno  total ;
+        }
+    }
+}

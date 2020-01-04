@@ -1,0 +1,19 @@
+utilizando el  sistema ;
+utilizando el  sistema . Colecciones . Genérico ;
+utilizando el  sistema . Texto ;
+
+espacio de nombres  tienda
+{
+    clase  ClientePremiun : Cliente
+    {
+        public  int  PuntageCom { get ; establecer ; }
+        public  DateTime  FechaInscriccion { get ; establecer ; }
+         decimal  público FechaDeInscre ()
+        {
+            TimeSpan  timeSpan  =  DateTime . Hoy  ,  esto . FechaInscriccion ;
+            int  dias  =  timeSpan . Días ;
+            int  fecha  =  dias  /  365 ;
+            volver  fecha ;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+utilizando el  sistema ;
+utilizando el  sistema . Colecciones . Genérico ;
+utilizando el  sistema . Texto ;
+
+espacio de nombres  tienda
+{
+    clase  ListaDeProductos
+    {
+        público  ListaDeProductos ()
+        {
+            StockProductos  =  nueva  Lista < Producto > ();
+        }
+         Lista pública < Producto > StockProductos { get ; establecer ; }
+
+        público  vacío  GeneraProductos ()
+        {
+            Aleatorio  aleatorio  =  nuevo  Aleatorio ();
+            int  numero ;
+            para ( int  i  =  1 ; i  <=  10 ; i ++ )
+            {
+                Producto  producto  =  nuevo  Producto ();
+                producto . Codigo  =  i ;
+                numero  =  aleatorio . Siguiente ( 20 );
+                char  letra  = ( char ) ((( int ) 'A' ) +  random . Next ( 26 ));
+                producto . Descripcion  =  " Xtechnology "  +  letra  +  i ;
+                producto . Precio  = numero ;
+
+                StockProductos . Añadir ( producto );
+            }
+        }
+        public  void  imprimirlistado ()
+        {
+            Consola . WriteLine ( " Stock de productos " );
+            Consola . WriteLine ( " Identificador \ t Descripcion \ t \ t \ t Precio " );
+            foreach ( artículo var  en StockProductos )  
+            {
+                Consola . WriteLine ( " {0} \ t \ t {1} \ t \ t \ t {2} " ,
+                artículo . Codigo , artículo . Descripcion , articulo . Precio );
+            }
+        }
+    }
+}

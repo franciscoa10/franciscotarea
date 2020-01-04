@@ -1,0 +1,64 @@
+utilizando el  sistema ;
+utilizando el  sistema . Colecciones . Genérico ;
+utilizando el  sistema . Texto ;
+
+espacio de nombres  tienda
+{
+    clase  Calculos_a_pagar_sin_Registro : IProcesosTranssaccionales
+        
+
+    {
+         Subtotal público decimal  { get ; establecer ; }
+         descuento decimal  público { get ; establecer ; }
+         Total decimal  público { get ; establecer ; }
+
+
+        público  decimal  CalcularSubtotal ()
+        {
+            regresar  Subtotal ;
+            // this.Subtotal = expor; ;
+        }
+
+
+        público  decimal  CalcularDescuento ()
+        {
+            si ( esto . Subtotal  > =  100 )
+            { esto . Descuento  =  esto . Subtotal  *  0.05M ; }
+            más { esto . Descuento  =  0 ; }
+            devolución  Descuento ;
+         }
+        público  decimal  CalcularTotal ()
+        {
+            esta . Total  =  Subtotal  -  Descuento ;
+            retorno  total ;
+        }
+
+       
+    }
+
+}
+/ * public void CalcularSubtotal ()
+         {
+             // FacturaCarrito factu = new FacturaCarrito ();
+             conta decimal = 0;
+             foreach (elemento var en this.Detalle)
+             {
+                 conta = conta + (item.Cantidad * item.ProductoCarrito.Precio);
+             }
+             this.Subtotal = conta;
+         } * /
+// público vacío CalcularSubtotal (int cantida, decimal precio)
+
+//   {
+// subtotal decimal = 0;
+// foreach (int elemento en cantida) {
+// hacer
+// {
+
+// subtotal = subtotal + (cantida * precio);
+// this.Subtotal = subtotal;
+//   }
+//   } while (cantida! = 0);
+// devuelve CalcularSub;
+
+// }

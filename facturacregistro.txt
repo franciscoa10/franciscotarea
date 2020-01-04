@@ -1,0 +1,23 @@
+utilizando el  sistema ;
+utilizando el  sistema . Colecciones . Genérico ;
+utilizando el  sistema . Texto ;
+
+espacio de nombres  tienda
+{
+    clase  Factura_C_Registrado
+    {
+        público  ClienteConRegistro  Dato2 { get ; establecer ; }
+        público  vacío  LlenarDatos ()
+        {
+            ClienteConRegistro  c2 = nuevo  ClienteConRegistro ();
+            Consola . WriteLine ( " Escriba su nombre " ); c2 . Nombres  =  Consola . ReadLine ();
+            Consola . WriteLine ( " Escriba su apellido " ); c2 . Apellido  =  Consola . ReadLine ();
+            Consola . WriteLine ( " Escriba su Numero de cedula " ); c2 . Cedula  =  Consola . ReadLine ();
+            Consola . WriteLine ( " Escriba su Correo " ); c2 . Correo electrónico  =  Consola . ReadLine ();
+            Consola . WriteLine ( " Escriba su Contraseña " ); c2 . Contrase ñ a  =  Consola . ReadLine ();
+            Consola . WriteLine ( " Escriba su teléfono " ); c2 . FechaInicioRegistro = nuevo  DateTime ( 11 / 02 / 2019 );
+            Consola . WriteLine ( " Escriba su teléfono " ); c2 . FechaFinalisacion =  nuevo  DateTime ( 11  /  02  /  2019 );
+            esta . Dato2  =  c2 ;
+        }
+    }
+}
