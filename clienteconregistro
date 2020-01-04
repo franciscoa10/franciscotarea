@@ -1,0 +1,11 @@
+utilizando el  sistema ;
+utilizando el  sistema . Colecciones . Genérico ;
+utilizando el  sistema . Texto ;
+
+espacio de nombres  TiendaElextronica
+{
+    clase  ClienteSinRegistro : Cliente
+    {
+        pública  cadena  Telefono { llegar ; establecer ; }
+    }
+}
