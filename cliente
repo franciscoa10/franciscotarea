@@ -1,0 +1,18 @@
+utilizando el  sistema ;
+utilizando el  sistema . Colecciones . Genérico ;
+utilizando el  sistema . Texto ;
+
+espacio de nombres  TiendaElextronica
+{
+    clase  Cliente
+    {
+         cadena  pública Cedula { get ; establecer ; }
+         cadena  pública Nombres { get ; establecer ; }
+
+         cadena  pública Apellido { get ; establecer ; }
+
+         Correo electrónico de cadena  pública { get ; establecer ; }
+
+        cadena pública Contraseña {get; conjunto; }
+    }
+}
