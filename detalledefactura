@@ -1,0 +1,13 @@
+utilizando el  sistema ;
+utilizando el  sistema . Colecciones . Genérico ;
+utilizando el  sistema . Texto ;
+
+espacio de nombres  TiendaElextronica
+{
+    clase  pública DetalleFactura
+    {
+        public  Producto  ProductoCarrito { get ; establecer ; }
+        public  int  Cantidad { get ; establecer ; }
+
+    }
+}
